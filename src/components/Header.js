@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="headerWrapper">
       <h1>The Owlchemist</h1>
       <ConnectButton />
     </div>
