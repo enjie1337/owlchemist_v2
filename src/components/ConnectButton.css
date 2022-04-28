@@ -1,0 +1,19 @@
+.btnConnect {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(66, 58, 169);
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 5px 5px 20px #010203;
+
+  cursor: pointer;
+}
+
+.btnConnect:hover {
+  color: #fff;
+
+  background-color: rgb(78, 68, 206);
+  box-shadow: 5px 5px 20px #010203;
+}
