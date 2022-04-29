@@ -10,6 +10,7 @@ const NFTContainer = (props) => {
       <div className="nftContainer">
         {props.nfts.map((nfts) => (
           <SingleNFT
+            key={nfts.name}
             type={nfts.attributes[1].value}
             id={nfts.name.split("#").pop()}
             img={nfts.image}
