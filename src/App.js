@@ -4,7 +4,7 @@ import "./App.css";
 
 import Header from "./components/Header";
 import Mid from "./components/Mid";
-import TransmutationButton from "./components/TransmutationButton";
+import Footer from "./components/Footer";
 
 function App() {
   // nfts array is temporary, we need to get the nfts after wallet connects...
@@ -501,7 +501,7 @@ function App() {
     <div className="App">
       <Header />
       <Mid nfts={nfts}></Mid>
-      <TransmutationButton />
+      <Footer />
     </div>
   );
 }

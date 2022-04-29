@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="headerWrapper">
-      <h1>The Owlchemist</h1>
+      <h1>The Owlchemist has arrived..</h1>
       <ConnectButton />
     </div>
   );

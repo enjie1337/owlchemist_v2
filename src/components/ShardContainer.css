@@ -8,8 +8,16 @@
 label {
   font-size: 0.9rem;
   font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 input[type="radio" i] {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+}
+
+.shardImage {
+  display: block;
+  width: 48px;
+  height: 48px;
 }
