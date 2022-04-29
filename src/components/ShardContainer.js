@@ -8,18 +8,9 @@ const ShardContainer = (props) => {
     <div className="shardWrapper">
       <h2>Select Founder's Shard:</h2>
       <div className="shardContainer">
-        <SingleShard
-          rarity={props.shards[0].rarity}
-          image={props.shards[0].image}
-        />
-        <SingleShard
-          rarity={props.shards[1].rarity}
-          image={props.shards[1].image}
-        />
-        <SingleShard
-          rarity={props.shards[2].rarity}
-          image={props.shards[2].image}
-        />
+        {props.shards.map((shards) => (
+          <SingleShard rarity={shards.rarity} image={shards.image} />
+        ))}
       </div>
     </div>
   );
