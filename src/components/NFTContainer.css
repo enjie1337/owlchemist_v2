@@ -1,19 +1,7 @@
 .nftContainer {
-  background-color: #0b121a;
-  line-height: 1.1;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  max-width: 80vw;
-}
-
-.nftWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 2rem;
+  background-color: rgb(31, 33, 53);
+  padding: 1rem;
 }

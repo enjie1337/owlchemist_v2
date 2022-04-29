@@ -5,8 +5,8 @@ import "./NFTContainer.css";
 
 const NFTContainer = (props) => {
   return (
-    <div className="nftWrapper">
-      <h2>Select NFTs to transmute:</h2>
+    <div>
+      <h3>Select NFTs to transmute:</h3>
       <div className="nftContainer">
         {props.nfts.map((nfts) => (
           <SingleNFT

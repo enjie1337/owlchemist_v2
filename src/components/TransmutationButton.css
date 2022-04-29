@@ -1,20 +1,18 @@
 .btnTransmute {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
-  background-color: transparent;
-  padding: 0.5rem 2rem;
-  border: 3px solid #fff;
-  border-radius: 5px;
+  background-color: rgb(66, 58, 169);
+  border: 3px solid rgb(66, 58, 169);
+  padding: 1rem;
   color: #fff;
   font-weight: 600;
-  box-shadow: 5px 5px 20px #010203;
 
   cursor: pointer;
 }
 
 .btnTransmute:hover {
   color: #fff;
-  border: 3px solid rgb(90, 82, 204);
-  background-color: rgb(90, 82, 204);
+  border: 3px solid rgb(78, 68, 206);
+  background-color: rgb(78, 68, 206);
   box-shadow: 5px 5px 20px #010203;
 }
