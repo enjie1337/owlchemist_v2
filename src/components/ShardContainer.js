@@ -6,7 +6,7 @@ import "./ShardContainer.css";
 const ShardContainer = () => {
   return (
     <div>
-      <h3>Select Shard recipe:</h3>
+      <h3>Select Shard recipe: </h3>
       <div className="shardContainer">
         <RarityForm />
       </div>
