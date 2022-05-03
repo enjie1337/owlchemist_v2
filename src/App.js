@@ -2,9 +2,9 @@ import React from "react";
 
 import "./App.css";
 
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main.js";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/UI/Header";
+import Main from "./components/UI/Main";
+import Footer from "./components/UI/Footer";
 
 function App() {
   // nfts array is temporary, we need to get the nfts after wallet connects...

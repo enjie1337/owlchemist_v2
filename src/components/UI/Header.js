@@ -1,5 +1,5 @@
 import React from "react";
-import ConnectButton from "./ConnectButton";
+import ConnectButton from "../Connect/ConnectButton";
 import "./Header.css";
 
 const Header = () => {

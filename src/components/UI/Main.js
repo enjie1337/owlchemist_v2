@@ -1,7 +1,7 @@
 import React from "react";
-import NFTContainer from "./NFTContainer";
-import ShardContainer from "./ShardContainer.js";
-import TransmuteButton from "./TransmuteButton";
+import NFTContainer from "../NFTs/NFTContainer";
+import ShardContainer from "../Shards/ShardContainer";
+import TransmuteButton from "../Transmute/TransmuteButton";
 
 import "./Main.css";
 
