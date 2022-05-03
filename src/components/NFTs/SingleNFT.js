@@ -3,17 +3,19 @@ import React, { useState } from "react";
 import "./SingleNFT.css";
 
 const SingleNFT = (props) => {
-  const [isActive, setActive] = useState(false);
+  const [active, setActive] = useState(false);
 
-  const selectHandler = (event) => {
-    setActive(!isActive);
-    console.log(event);
-    console.log(`Click on: ${event.target.src}`);
+  const selectHandler = () => {
+    setActive(!active);
+    let source;
+    !active ? (source = props.img) : (source = "");
+
+    props.onNFTSelect(source);
   };
 
   return (
     <div
-      className={isActive ? "singleBoxActive" : "singleBox"}
+      className={active ? "singleBoxActive" : "singleBox"}
       onClick={selectHandler}
     >
       <img className="singleImage" src={props.img} />
