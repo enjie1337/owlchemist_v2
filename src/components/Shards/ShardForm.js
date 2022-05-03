@@ -3,9 +3,7 @@ import React from "react";
 import "./ShardForm.css";
 const ShardForm = (props) => {
   const selectHandler = (event) => {
-    const rarity = event.target.value;
-    console.log(`Selected Shard recipe: ${event.target.value}`);
-    props.onShardSelect(rarity);
+    props.onShardSelect(event.target.value);
   };
 
   return (

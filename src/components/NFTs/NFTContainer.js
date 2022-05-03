@@ -1,6 +1,6 @@
 import React from "react";
-
 import SingleNFT from "./SingleNFT";
+
 import "./NFTContainer.css";
 
 const NFTContainer = (props) => {
