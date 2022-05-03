@@ -3,11 +3,11 @@ import NFTContainer from "./NFTContainer";
 import ShardContainer from "./ShardContainer.js";
 import TransmuteButton from "./TransmuteButton";
 
-import "./Mid.css";
+import "./Main.css";
 
-const Mid = (props) => {
+const Main = (props) => {
   return (
-    <div className="midWrapper">
+    <div className="mainWrapper">
       <NFTContainer nfts={props.nfts}></NFTContainer>
       <ShardContainer />
       <TransmuteButton />
@@ -15,4 +15,4 @@ const Mid = (props) => {
   );
 };
 
-export default Mid;
+export default Main;

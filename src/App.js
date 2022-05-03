@@ -2,9 +2,9 @@ import React from "react";
 
 import "./App.css";
 
-import Header from "./components/Header";
-import Mid from "./components/Mid";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main.js";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // nfts array is temporary, we need to get the nfts after wallet connects...
@@ -257,7 +257,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Mid nfts={nfts}></Mid>
+      <Main nfts={nfts}></Main>
       <Footer />
     </div>
   );
