@@ -1,5 +1,5 @@
 import React from "react";
-import RarityForm from "./RarityForm";
+import ShardForm from "./ShardForm";
 
 import "./ShardContainer.css";
 
@@ -8,7 +8,7 @@ const ShardContainer = () => {
     <div>
       <h3>Select Shard recipe: </h3>
       <div className="shardContainer">
-        <RarityForm />
+        <ShardForm />
       </div>
     </div>
   );

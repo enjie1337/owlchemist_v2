@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import "./RarityForm.css";
-const RarityForm = () => {
+import "./ShardForm.css";
+const ShardForm = () => {
   const [rarity, setRarity] = useState(" ");
 
   const rarityHandler = (event) => {
@@ -45,4 +45,4 @@ const RarityForm = () => {
   );
 };
 
-export default RarityForm;
+export default ShardForm;
