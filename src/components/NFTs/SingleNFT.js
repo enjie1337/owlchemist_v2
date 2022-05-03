@@ -4,7 +4,6 @@ import "./SingleNFT.css";
 
 const SingleNFT = (props) => {
   const [isActive, setActive] = useState(false);
-  const [selection, setSelection] = useState(" ");
 
   const selectHandler = (event) => {
     setActive(!isActive);
