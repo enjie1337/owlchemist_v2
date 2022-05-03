@@ -7,6 +7,7 @@ const SingleNFT = (props) => {
 
   const selectHandler = (event) => {
     setActive(!isActive);
+    console.log(event);
     console.log(`Click on: ${event.target.src}`);
   };
 
